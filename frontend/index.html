@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumme - Editor de Orçamentos</title>
+    <!-- Estilos base e variáveis -->
+    <link rel="stylesheet" href="/css/global.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Contêiner do Componente Sidebar -->
+        <div id="sidebar-container"></div>
+        
+        <div class="main-content" style="flex-grow: 1; display: flex; flex-direction: column;">
+            <!-- Contêiner do Componente Navbar -->
+            <div id="navbar-container"></div>
+            
+            <!-- Contêiner Central Dinâmico de Conteúdo -->
+            <div id="content-container" class="content-area"></div>
+        </div>
+    </div>
+
+    <!-- Script Principal da Aplicação (Módulo ES6) -->
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html>
