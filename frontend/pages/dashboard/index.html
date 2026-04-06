@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumme - Dashboard</title>
+    <link rel="stylesheet" href="/css/global.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Placeholder para o sidebar -->
+        <div id="sidebar-container"></div>
+
+        <main class="main-content">
+            <header style="background: rgba(249, 250, 251, 0.8); backdrop-filter: blur(12px); padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 5;">
+                <h1 style="font-size: 1.25rem; font-weight: 600; color: var(--text-heading);">Visão Geral</h1>
+            </header>
+
+            <div class="content-area">
+                <div style="max-width: 950px; margin: 0 auto; margin-top: 40px; position: relative;">
+                    <div class="marker marker-tl"></div>
+                    <div class="marker marker-tr"></div>
+                    <h2 style="font-size: 2rem; margin-bottom: 12px; font-weight: 700;">Bem-vindo ao seu Workspace</h2>
+                    <p style="color: var(--text-muted); font-size: 1.1rem;">Aqui você verá o resumo de todos os orçamentos e cobranças enviadas.</p>
+                    <div class="marker marker-bl"></div>
+                    <div class="marker marker-br"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/js/loader.js"></script>
+    <script src="./dashboard.js"></script>
+</body>
+</html>
