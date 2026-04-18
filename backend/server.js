@@ -171,3 +171,4 @@ app.listen(PORT, async () => {
         console.log(`\n\x1b[31m❌ Falha crítica de conexão:\x1b[0m`, err.message);
     }
 });
+// teste
